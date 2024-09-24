@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seedra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+      @media (max-width: 768px) {
+        .mobile-hidden {
+          display: none;
+        }
+        .mobile-full-width {
+          width: 100%;
+        }
+        .mobile-center {
+          text-align: center;
+        }
+        .mobile-stack {
+          flex-direction: column;
+        }
+        .mobile-mt-4 {
+          margin-top: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="shadow-lg">
+      <div class="w-full max-w-[1200px] m-auto px-4">
+        <div class="flex justify-between h-[50px] items-center">
+          <div>
+            <img src="img/img1.png" alt="Logo" />
+          </div>
+          <nav class="mobile-hidden">
+            <ul class="flex">
+              <li class="ml-[32px]">
+                <a href="pages/AllProducts/AllProducts.html">ALL PRODUCTS</a>
+              </li>
+              <li class="ml-[32px]">
+                <a id="about-seedra">ABOUT SEEDRA</a>
+              </li>
+              <li class="ml-[32px]">
+                <a href="./pages/ourBlog/ourBlog.html">OUR BLOG</a>
+              </li>
+              <li class="ml-[32px]">
+                <a href="./pages/contacts/contacts.html">CONTACTS</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="flex space-x-4 mobile-hidden">
+            <img src="img/img2.png" alt="Icon 1" />
+            <img src="img/img3.png" alt="Icon 2" />
+          </div>
+          <div class="relative mobile-hidden">
+            <input
+              type="text"
+              placeholder="search"
+              class="border border-[#EFEFEF] outline-none w-[285px] py-[5px] px-[10px] rounded-[71px] pl-[30px]"
+            />   
+            <img src="img/img4.png" alt="Search Icon" class="absolute top-[6px] left-[6px]" />
+          </div>
+          <div class="flex space-x-4 ">
+       <div class="cart-count w-[10px] h-[10px] bg-[#359740] rounded-[50%] flex justify-center items-center absolute ml-[69px] text-white">0</div>
+       <img src="img/img5.png" alt="Icon 3" />     
+       <div class="favorites-count w-[10px] h-[10px] bg-[#359740]   rounded-[50%] flex justify-center items-center absolute ml-[215px] text-white ">O</div>
+       <a href="./pages/Korzinna/index.html">
+                   <img src="img/img6.png" alt="Icon 4" />
+            </a>
+            <img src="img/Frame 59 (1).png" alt="Menu" class="h-6 w-6 block md:hidden" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="w-full max-w-[1200px] m-auto px-4">
+          <div class="flex flex-col md:flex-row justify-around bg-[#EAF1EB] rounded-[24px] mt-[32px] relative p-4">
+            <div class="mobile-center">
+              <h1 class="text-[#1F2533] text-[32px] md:text-[48px] font-bold md:w-[680px]">
+                SEEDRA Basil Seeds for Indoor and Outdoor Planting
+              </h1>
+              <p class="text-[16px] text-[#1F2533] md:w-[535px]">
+                Be sure of our quality - the freshest batches of this season. Non-GMO, Heirloom - our seeds were tested and have the best germination ratings. Your easy growing experience is our guarantee.
+              </p>
+              <div class="flex items-center mt-[21px] justify-center md:justify-start">
+                <a href="pages/products.html">
+                  <img src="img/img7.png" alt="Product Icon" />
+                </a>
+                <p class="text-[32px] md:text-[42px] font-bold ml-4">$12.56</p>
+                <p class="text-[18px] md:text-[22px] text-[#7073C] line-through font-bold ml-4">$15.56</p>
+              </div>
+              <div class="mt-[20px] flex justify-center md:justify-start">
+                   <button class="bg-[#359740] text-white py-[11px] px-[33px] rounded-[8px]">
+                  Add to cart
+                </button>
+                <button class="bg-white text-[#359740] py-[11px] px-[33px] rounded-[8px] border border-[#359740] ml-4">
+                  Discover
+                </button>
+              </div>
+            </div>
+            <div class="z-10 mt-4 md:mt-0 md:ml-[184px]">
+              <img src="img/img8.png" alt="Main Product Image" class="mx-auto md:mx-0" />
+            </div>
+            <div class="mobile-hidden">
+              <img src="img/img9.png" alt="Decorative Image" class="absolute bottom-0 right-0" />
+            </div>
+            <img src="img/img10.png" alt="Leaf 1" class="absolute ml-[1054px] -mt-4 mobile-hidden" />
+            <img src="img/12.png" alt="Leaf 2" class="absolute bottom-25 ml-[673px] transform -rotate-6 mobile-hidden" />
+            <img src="img/img11.png" alt="Leaf 3" class="absolute ml-[583px] top-[245px] mobile-hidden" />
+          </div>
+        </div>
+      </section>
+      <section class="container mx-auto mt-8">
+        <div class="w-full max-w-[1200px] m-auto px-4">
+          <div class="border-1 border-r border-[#EFEFEF] r-6">
+            <div class="flex mt-[115px] flex-col md:flex-row items-center -mt-[25px]">
+              <img class="-mt-[130px] h-[75px]" src="img/Group (1).png" alt="">
+              <div class="flex -ml-[56px] mt-4 md:mt-0">
+                <img class="h-[45px]" src="img/img13.png" alt="">
+                <img class="-mt-[32px] h-[35px] ml-[24px]" src="img/img14.png" alt="">
+                <img class="-mt-[13px] h-[60px]" src="img/img15.png" alt="">
+              </div>
+            </div>  
+            <div class="text-center -mt-[90px]">
+              <h2>We sell seeds</h2>
+              <p>that always sprout and gardening supplies which never break</p>
+            </div>
+            <div class="flex ml-[1040px] -mt-[57px] mobile-hidden">
+              <img class="h-[44px] -mt-[24px]" src="img/img16.png" alt="">
+              <img class="h-[34px] mt-[24px] -ml-[45px]" src="img/img18.png" alt="">
+              <img class="h-[23px] ml-[15px] -mt-[14px]" src="img/img17.png" alt="">
+              <img class="-ml-[54px]" src="img/img19.png" alt="">
+            </div> 
+          </div>
+        </div>
+      </section>        
+      <section>
+        <div class="container mx-auto mt-8">
+          <h2 class="text-3xl font-bold mb-4 ml-[173px] mobile-center">Our products.</h2>
+          <h5 class="absolute right-0 mr-[50px] -mt-[39px] text-gray-500 relative ml-[1293px] h-[12px] mobile-hidden">View all (12)</h5>
+          <div class="flex items-center justify-center gap-2 mt-[35px] flex-wrap">
+            <button class="flex items-center border border-[#EFEFEF] rounded-lg px-4 py-2 text-green-600 m-2">
+              <img src="img/i1.png" class="mr-2" alt="All">ALL
+            </button>
+            <button class="flex items-center border border-[#EFEFEF] rounded-lg px-4 py-2 text-green-600 m-2">
+              <img src="img/i2.png" class="mr-2" alt="Bundles">BUNDLES
+            </button>
+            <button class="flex items-center border border-[#EFEFEF] rounded-lg px-4 py-2 text-green-600 m-2">
+              <img src="img/i3.png" class="mr-2" alt="Herbs">HERBS
+            </button>
+            <button class="flex items-center border border-[#EFEFEF] rounded-lg px-4 py-2 text-green-600 m-2">
+              <img src="img/i4.png" class="mr-2" alt="Vegetables">VEGETABLES
+            </button>
+            <button class="flex items-center border border-[#EFEFEF] rounded-lg px-4 py-2 text-green-600 m-2">
+              <img src="img/i5.png" class="mr-2" alt="Fruits">FRUITS
+            </button>
+            <button class="flex items-center border border-[#EFEFEF] rounded-lg px-4 py-2 text-green-600 m-2">
+            <img src="img/i6.png" class="mr-2" alt="Supplies">SUPPLIES
+            </button>
+            <button class="flex items-center border border-[#EFEFEF] rounded-lg px-4 py-2 text-green-600 m-2">
+              <img src="img/i7.png" class="mr-2" alt="Flowers">FLOWERS
+            </button>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="w-full max-w-[1200px] m-auto px-4">
+          <div id="root" class="flex justify-between flex-wrap"></div>
+        </div>
+      </section>
+      <section>
+        <div class="w-full max-w-[1200px] m-auto px-4">  
+          <div class="mt-[64px]">
+            <div class="flex justify-between items-center">
+              <h2 class="text-[23px]">Our blog.</h2>
+              <h2 class="mobile-hidden">Go to our blog</h2>
+            </div>    
+            <div class="flex flex-col md:flex-row gap-4 mt-[34px]">
+              <div class="border-2 w-full md:w-[755px] bg-[#EFF2F8] p-4 h-[335px]"> 
+                <h1 class="text-[23px] w-full md:w-[313px]">How to plant spinach correctly in winter</h1>
+                <p class="w-full md:w-[444px]">In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                <div class="flex mt-[24px] items-center">
+                  <div class="bg-white rounded-lg border shadow-lg px-[33px] py-[15px]">
+                    <span class="text-green-600 font-bold text-xl">Read</span>
+                  </div>
+                </div>
+                <img class="w-full md:w-auto md:ml-[443px] md:-mt-[204px] mt-[65px]" src="img/imgi24.png" alt="">
+              </div>
+            </div>
+              <div class="w-full md:w-[350px] bg-[#EFF2F8] border-2 md:ml-[817px] md:-mt-[335px] h-[644px] mobile-mt-4"> 
+                <h1 class="text-[23px] w-full md:w-[283px]">How to plant spinach correctly in winter</h1>
+                <p class="w-full md:w-[315px]">In most areas, successive sowing can be done from early spring until early winter, but more often during hotter months...</p>
+                <div class="flex mt-[24px] items-center">
+                  <div class="bg-white rounded-lg border shadow-lg px-[33px] py-[15px]">
+                    <span class="text-green-600 font-bold text-xl">Read</span>
+                  </div>
+                </div>
+                <img class="w-full md:w-auto md:ml-[65px] md:mt-[24px]" src="img/imgi25.png" alt="">   
+              </div> 
+            <div class="flex flex-col md:flex-row gap-4 md:-mt-[287px]">
+              <div class="bg-[#EFF2F8] border-2 w-full md:w-[350px]">
+                <h1 class="text-[23px] w-full md:w-[283px]">How to plant spinach correctly in winter</h1>
+                <div class="flex mt-[24px] items-center">
+                  <div class="bg-white rounded-lg border shadow-lg px-[33px] py-[15px]">
+                    <span class="text-green-600 font-bold text-xl">Read</span>
+                  </div>
+                </div>
+                <img class="w-full md:w-auto md:ml-[103px]" src="img/imgi26.png" alt="">
+              </div>                
+              <div class="bg-[#EFF2F8] border-2 w-full md:w-[350px] md:ml-[38px]">
+                <h1 class="text-[23px] w-full md:w-[283px]">How to plant spinach correctly in winter</h1>
+                <div class="flex mt-[24px] items-center">
+                  <div class="bg-white rounded-lg border shadow-lg px-[33px] py-[15px]">
+                   <span class="text-green-600 font-bold text-xl">Read</span>
+                  </div>
+                </div>
+                <img class="w-full md:w-auto md:ml-[103px]" src="img/imgi26.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="md:-ml-[360px]">
+        <div class="w-full max-w-[1200px] m-auto px-4">
+          <div>
+            <h2 class="mt-[145px] text-[23px] w-full md:w-[323px] md:ml-[183px]">Seedra helps to grow fast and efficient</h2>
+            <div class="md:ml-[183px] mt-[25px]">
+              <p class="w-full md:w-[483px]">SEEDRA Spinach Seeds - contains 600 seeds in 2 Packs and professional instructions created by PhD Helga George</p>
+              <p class="w-full md:w-[455px] mt-[25px]">Be sure of our quality - the freshest batches of this season. Non-GMO, 
+                Heirloom - our seeds were tested and have the best germination ratings. 
+                Your easy growing experience is our guarantee
+                Spinach commom culinary uses: salads, soups, smoothies, lasagne, pizza, pies, risotto, and more</p>
+              <p class="mt-[25px] w-full md:w-[475px]">Proudly sourced in the USA - our garden seeds are grown, harvested,
+                and packaged in the USA. We support local farmers and are happy to produce this American-made product</p>
+            </div>
+          </div>
+          <div class="md:ml-[722px] md:-mt-[425px] mt-4">
+            <img src="img/imgi28.png" alt="" class="w-full md:w-auto">
+            <img class="md:-mt-[463px] md:ml-[23px] w-full md:w-auto h-auto" src="img/imgi27.png" alt="">
+            <img class="md:-mt-[455px] w-full md:w-auto" src="img/fresh-coriander-leaves-white 1.png" alt="">
+            <img class="md:ml-[380px] md:-mt-[83px] w-full md:w-auto" src="img/fresh-sweet-basil-leaves-isolated-white-background 1.png" alt="">
+            <img class="mt-[64px] w-full md:w-auto" src="img/fresh-sweet-basil-leaves-isolated-white-background 4.png" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-8 border-t">
+      <div class="w-full max-w-[1200px] m-auto px-4 py-4">
+        <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
+          <div class="flex flex-col items-center md:items-start mb-4 md:mb-0">
+            <img class="mb-4" src="img/img1.png" alt="">
+            <div class="flex space-x-2">
+              <img src="img/img2.png" alt="">
+              <img src="img/img3.png" alt="">
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-center md:text-left">
+            <a href="#">ALL PRODUCTS</a>
+            <a href="#">ABOUT SEEDRA</a>
+            <a href="#">OUR BLOG</a>
+            <a href="#">Terms&Conditions</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+        <p class="text-center mt-4">ALL rights reserved</p>
+      </div>
+    </footer>
+    <script src="./app.js"></script> 
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
