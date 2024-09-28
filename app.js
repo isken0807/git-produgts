@@ -254,29 +254,6 @@ function updateCartCount() {
 document.querySelector('.cart-icon').addEventListener('click', function () {
   window.location.href = './pages/Korzinna/index.html'; // Перенаправление на страницу корзины
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let currentSlideIndex = 0;
 
 // Функция для отображения слайдов
